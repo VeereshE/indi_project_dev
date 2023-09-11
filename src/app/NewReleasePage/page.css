@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+.new_top_coming_soon_container{
+    display: flex;
+    width: 445px;
+    height: 133.347px;
+    flex-shrink: 0;
+    padding-top:10px;
+}
+
+.all_new_coming_soon_containers{
+    padding-top: 20px;
+}
+
+
+.details_of_games_carts{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.heading_players_games{
+    color: var(--text-white-100, #FFF);
+    font-family: Inter;
+    font-size: 20.965px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 27.255px */
+    text-transform: capitalize;
+}
+
+.para_players_games{
+    width: 273px;
+    height: 43px;
+    flex-shrink: 0;
+    color: var(--text-white-100, #FFF);
+    font-family: Mulish;
+    font-size: 15.559px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.released_days{
+    width: 238px;
+    height: 22px;
+    flex-shrink: 0;
+    color: var(--text-light-dark, #737A99);
+    font-family: Mulish;
+    font-size: 15.559px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%
+}
+
+.play_button_games{
+    width:50%;
+    border-radius: 18.113px;
+    border: 1px solid rgba(63, 94, 251, 0.65);
+    background: #7B25C1;
+}

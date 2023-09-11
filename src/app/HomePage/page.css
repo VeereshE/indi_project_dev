@@ -1,0 +1,13 @@
+.home_section_container{
+    padding-top: 70px;
+    padding-bottom: 0px;
+    margin: 30px;
+    text-align: center;
+}
+
+
+@media (max-width: 767px){
+    .home_section_container {
+        display: none;
+    }
+}

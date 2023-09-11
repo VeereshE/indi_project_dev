@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@1,100&family=Comme:wght@500&family=Inter:wght@500&family=PT+Sans&family=Poppins:ital,wght@0,400;0,600;1,700&family=Roboto:ital,wght@0,300;0,500;0,700;1,900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@1,100&family=Comme:wght@500&family=Inter:wght@500&family=Montserrat:wght@500&family=PT+Sans&family=Poppins:ital,wght@0,400;0,600;1,700&family=Roboto:ital,wght@0,300;0,500;0,700;1,900&family=Satisfy&display=swap');
+
+* {
+    margin: 0px;
+}
+
+
+
+.header_section {
+    background-color: rgba(33, 33, 33, 1);
+    width: 100%;
+    height: 80px;
+    position: fixed;
+
+}
+
+.icon_imag {
+    width: 25px;
+    height: 23.95px;
+    flex-shrink: 0;
+    color: rgba(225, 225, 225, 1);
+    padding-left: 54px;
+    padding-top: 34.86px;
+}
+
+.logo_image {
+    width: 59px;
+    height: 59px;
+    flex-shrink: 0;
+    padding-top: 10px;
+}
+
+.icon_container {
+    display: flex;
+    gap: 15px;
+}
+
+
+.searchInput {
+    width: 400px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 29px;
+    background: #3E3E3E;
+    margin: 19px;
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.028px;
+    border: none;
+}
+
+.icon_search {
+    width: 36px;
+    height: 55.743px;
+    flex-shrink: 0;
+    padding-right: -50px;
+    padding-top: 20px;
+    margin-right: -50px;
+}
+
+.search_icons_container {
+    display: flex;
+
+}
+
+.searchInput:hover {
+    background-color: #FFF;
+}
+
+
+.unorder_list_container {
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 60px;
+}
+
+
+.link_nav {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 157%;
+    letter-spacing: 0.24px;
+    cursor: pointer;
+}
+
+
+.nav-link:hover{
+    color: white;
+}
+.link_nav:hover {
+    color: #ffff;
+}
+
+.link_nav:hover{
+    color: whitesmoke;
+}
+
+.bell_container {
+    background-color: rgba(53, 49, 77, 1);
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.bell_container_element {
+    margin-top: 5px;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+
+}
+
+.button_wallet {
+    display: inline-flex;
+    width: 169px;
+    height: 43px;
+    padding: 12px 26px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 52px;
+    background: #7B25C1;
+    border: none;
+    color: var(--text-white-100, #FFF);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    bottom: 10px;
+    cursor: pointer;
+}
+
+.nav_list_button_container{
+    display: flex;
+}
+
+@media screen  and (min-width:767){
+    .nav_list_button_container{
+        display: none;
+    }
+    .search_icons_container{
+        display: none;
+    }
+}
+
+.food-munch-logo {
+    width: 80px;
+    height: 70px;
+}
+
+#navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+}

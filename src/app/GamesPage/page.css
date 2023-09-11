@@ -1,0 +1,155 @@
+.game_heading_all_games_button{
+    display: flex;
+    justify-content: space-around;
+}
+
+.game_container{
+    margin: 20px;
+}
+
+.featured_heading{
+    color: var(--text-white-100, #FFF);
+    font-family: Poppins;
+    font-size: 43.671px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+.games_heading{
+    color: #571998;
+    font-family: Poppins;
+    font-size: 43.671px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+
+
+.all_games_button{
+    display: inline-flex;
+    padding: 10.79px 28.055px;
+    align-items: flex-start;
+    gap: 10.79px;
+    border-radius: 56.11px;
+    background: #7B25C1;
+    align-items: center;
+    color: var(--text-white-100, #FFF);
+    font-family: Poppins;
+    font-size: 17.265px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+}
+
+
+
+.game_image_details_container{
+    width: 305.191px;
+    height: 570.575px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid rgba(63, 94, 251, 0.65);
+    backdrop-filter: blur(13.902616500854492px);
+    margin: 0px;
+}
+
+
+
+.heading_tittle{
+    color: var(--text-white-100, #FFF);
+    font-family: Poppins;
+    font-size: 17.795px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    text-transform: capitalize;
+}
+
+.paragraph_details{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 10.01px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+
+
+.horizant_line{
+    width: 256.114px;
+    height: 1.47px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    opacity: 0.15;
+    background: var(--liner-white-15, linear-gradient(90deg, #FFF -6.38%, rgba(255, 255, 255, 0.00) 100%));
+}
+
+.webiste_play_container{
+    display: flex;
+    padding: 6.673px 16.683px;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 11.122px;
+    padding-top: 10px;
+}
+
+
+
+.play_now_button{
+    border-radius: 20px;
+    background: #7B25C1;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    padding: 6.673px 16.683px;
+    align-items: flex-start;
+    gap: 11.122px;
+}
+
+.all_container_games{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+}
+
+.all_container_games_container:hover{
+    border-radius: 18.113px;
+    border: 1px solid rgba(63, 94, 251, 0.65);
+    background: #A8A8A8;
+    backdrop-filter: blur(13.902616500854492px);
+    width: 306px;
+    height: 570.575px;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+}
+
+
+
+.game_item_container {
+    gap: 20px;
+}
+/* HOver elemts */
+.all_container_clans_container:hover {
+    border-radius: 18.113px;
+    border: 1px solid rgba(63, 94, 251, 0.65);
+    background: #A8A8A8;
+    backdrop-filter: blur(13.902616500854492px);
+    width: 306px;
+    height: 543.575px;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+}
+
+
+.all_container_games{
+    padding-top: 30px;
+}
+
+

@@ -1,0 +1,18 @@
+
+@media screen  and (min-width:767px){
+    .New_top_coming_container{
+        display: flex;
+        gap:40px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+    }
+}
+
+.New_top_coming_container{
+    text-align: center;
+}
+
+.spotlight_container{
+    padding-top:20px;
+}

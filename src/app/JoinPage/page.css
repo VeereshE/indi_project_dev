@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+.background {
+    width: 100%;
+    height: 686px;
+    flex-shrink: 0;
+    background-color: #060606;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+h1 {
+    font-size: 24px;
+    
+    color: white;
+  
+    text-align: center;
+   
+    position: relative;
+  
+    z-index: 2;
+   
+}
+
+.background::before {
+    content: "";
+    width: 737px;
+    height: 411px;
+    flex-shrink: 0;
+    border-radius: 737px;
+    opacity: 0.4;
+    background: linear-gradient(138deg, rgba(187, 94, 255, 0.25) 23.07%, rgba(101, 31, 234, 0.25) 67.41%);
+    filter: blur(75px);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    margin-top: 100px;
+}
+
+.heading_join{
+    width: 788.19px;
+    height: 59.423px;
+    flex-shrink: 0;
+    color: var(--text-white-100, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.para_join{
+    width: 609.691px;
+    height: 60.544px;
+    flex-shrink: 0;
+    color: var(--text-white-100, #FFF);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    opacity: 0.8;
+}
+
+.text_contaent_elemets_join{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_join{
+    display: flex;
+    width: 417px;
+    height: 54px;
+    padding: 12px 50px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 52px;
+    background: #7B25C1;
+    color: var(--text-white-100, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+}
