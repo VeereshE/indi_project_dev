@@ -99,10 +99,11 @@ const ClansList = [
                                 <img src={game.imageUrl} alt={game.id} className='games_images' />
                             <div className='heading_para'>
                                 <h1 className='heading_title'>{game.tittle}</h1>
-                                <div className='par_details_1'>
-                                    <p className='paragraph_details'>{game.first_status}</p>
-                                    <p className='paragraph_details'>{game.secound_status}</p>
-                               </div>
+                                    <div className='par_details_1'>
+                                        <img src='https://res.cloudinary.com/dgvec2ipx/image/upload/v1694414932/like1_1_dolrjz.png' alt='like' className='like_icon'/>
+                                        <p className='paragraph_details'>{game.first_status}</p>
+                                        <p className='paragraph_details'>{game.secound_status}</p>
+                                    </div>
                             </div>
                             <hr className='horizant_line' />
                             <div className='icons_container'>

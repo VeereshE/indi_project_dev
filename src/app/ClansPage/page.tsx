@@ -128,8 +128,8 @@ const ClansList = [
                         <div className='game_image_details_container'>
                             <div className='all_small_img_and_icons'>
                                 <div key={index}>
-                                <img src={game.imageUrl} alt={game.id} className='games_images' />
-                                <img src={game.SubImage} alt={ game.id} className='Sub_images' />
+                                    <img src={game.imageUrl} alt={game.id} className='games_images' />
+                                    <img src={game.SubImage} alt={ game.id} className='Sub_images' />  
                             <div className='heading_para'>
                                 <h1 className='heading_title'>{game.tittle}</h1>
                                 <div className='par_details'>

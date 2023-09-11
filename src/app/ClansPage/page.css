@@ -66,3 +66,19 @@
     fill: #FFF;
 }
 
+.image-container {
+    position: relative;
+}
+
+.small-image-overlay {
+    position: absolute;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.small_img {
+    padding-top: 30px;
+}
